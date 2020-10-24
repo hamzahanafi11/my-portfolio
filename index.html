@@ -74,7 +74,7 @@
         <div class="row footer">
             <div class="col-md">
                 <hr>
-                <p class="footer-left"> 2020 HAMZA HANAFI </p>
+                <p class="footer-left"> <span id="year"></span> HAMZA HANAFI </p>
                 <p class="footer-right">
                     <a target="_blank" href="https://www.linkedin.com/in/hamzahanafi/"><i class="fab fa-linkedin-in"></i></a>
                     <a target="_blank" href="https://github.com/hamzahanafi11/"><i class="fab fa-github"></i></a>
@@ -83,9 +83,11 @@
         </div>
       </div>
       <script>
-            var colors = ['#5bd1e6', '#ff7a79', '#c48c5d', '#80ce80'];
-            var randomColor = colors[Math.floor(Math.random() * colors.length)];
+            const colors = ['#5bd1e6', '#ff7a79', '#c48c5d', '#80ce80'];
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
             document.getElementById('me').style.color = randomColor;
+            const year = new Date().getFullYear();
+            document.getElementById("year").innerText = year;
       </script>
 </body>
 </html>
