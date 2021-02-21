@@ -1,4 +1,4 @@
 # my-portfolio
-a web page for my portfolio
+my portfolio page
 
 [hamza Hanafi](https://hamzahanafi11.github.io/my-portfolio/)
